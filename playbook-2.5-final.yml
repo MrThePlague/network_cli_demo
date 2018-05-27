@@ -1,0 +1,10 @@
+---
+- hosts: routers
+
+  tasks:
+
+  - name: Gather facts
+    ios_facts:
+    register: result
+
+  - debug: var=result

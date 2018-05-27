@@ -1,0 +1,19 @@
+---
+- hosts: routers
+  connection: local
+
+  vars:
+    cli:
+      username: cisco
+      password: cisco
+      authorize: yes
+      auth_pass: cisco
+
+  tasks:
+
+  - name: Gather facts
+    ios_facts:
+      provider: "{{ cli }}"
+    register: result
+
+  - debug: var=result
