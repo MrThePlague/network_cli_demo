@@ -1,5 +1,5 @@
 # network_cli_demo
-Simple demo playbooks to demonstrate the network_cli connection type with Ansible, to accompany blog post.
+Simple demo playbooks to demonstrate the network_cli connection type with Ansible, to accompany a [blog post](https://www.mrtheplague.ca/2018/05/ansible-2-5-and-network_cli/)
 
 ## Pre-2.5 Playbook
 
